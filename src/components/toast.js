@@ -57,7 +57,7 @@ const Toast = {
     if (instance) {
       instance.visible = false
       instance.$el.addEventListener('transitionend', e => {
-        e.target.parentNode && e.target.parentNode.removeChild(event.target)
+        e.target.parentNode && e.target.parentNode.removeChild(e.target)
       })
       instance = null
     } else {

@@ -1,6 +1,6 @@
 {
   "name": "vue-toast-plugin-mobile",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "description": "vue component",
   "main": "./lib/index.js",
   "repository": "https://github.com/Jonny-china/vue-toast-plugin-mobile.git",
@@ -10,6 +10,12 @@
   "scripts": {
     "build": "webpack"
   },
+  "keywords": [
+    "toast",
+    "vue",
+    "vue-component",
+    "vue-toast"
+  ],
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.1",

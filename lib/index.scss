@@ -52,7 +52,6 @@ $prefixCls: 'jc' !default;
   box-sizing: border-box;
   text-align: center;
   z-index: 1000;
-  transition: opacity .3s linear;
 
   &.#{$prefixCls}-pad10 {
     padding: 10px;
@@ -102,12 +101,16 @@ $prefixCls: 'jc' !default;
   opacity: 0;
 }
 
-.#{$prefixCls}-mask {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: transparent;
-  z-index: 999;
+.#{$prefixCls}-toast-wrap {
+  transition: opacity .3s linear;
+
+  &.#{$prefixCls}-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    z-index: 999;
+  }
 }
